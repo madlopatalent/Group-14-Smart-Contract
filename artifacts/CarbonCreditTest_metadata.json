@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailTransferCreditToInvalidAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailTransferCreditWithoutOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testIssueCredit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransferCredit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CarbonCreditTest.sol": "CarbonCreditTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CarbonCredit.sol": {
+			"keccak256": "0x7ac1f77d17b2ae4abd9d68332abb4a1ce3effb20d0428f81400a054bb835184b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://459bd58690564669d136bf178452434aa3ae6d4daf4a7dfa73eeab1b8123f3f0",
+				"dweb:/ipfs/QmdgyWQxANNeZcsR4NJCehc8Vd2oTsmLTXQkCNoJypxPB4"
+			]
+		},
+		"CarbonCreditTest.sol": {
+			"keccak256": "0x886e9fc960d994ff83ef2d18cc2811e2e56b968a6e9c12fd3456219f759ef073",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://865704b528ac5271e60c97db7e9e4ed89e2ae96a52d89c984ee4c3932aa24ab8",
+				"dweb:/ipfs/QmPGyLMyRyUbTteKdxfvDq81EDnmdTrBBPAtcEoPqXWmRE"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0xab088ffd1cd1033f54c2486f151b5d02281a3b76724c8e6f48479c25a4f7809e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ddaf9976b1838f7028cbedfaf7f6e1cf8c898e100221176ff1406ee8b599f23",
+				"dweb:/ipfs/QmX2FYLXYyo5Cn55ZX2CfngpscSh4mQhcMVzQdQsh2vqcG"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}
